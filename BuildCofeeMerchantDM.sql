@@ -62,6 +62,7 @@ CREATE TABLE DimProduct
 	Product_AK		   INT NOT NULL,
 	ProductName		   NVARCHAR(40) NOT NULL,
 	ProductDescription NVARCHAR(500) NOT NULL,
+	Item Type	       NVARCHAR(5) NOT NULL,
 	CountryName		   NVARCHAR(40) NOT NULL
 	);
 --
